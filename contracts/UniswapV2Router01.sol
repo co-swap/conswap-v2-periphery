@@ -1,7 +1,7 @@
 pragma solidity =0.6.6;
 
-import '@co-swap/v2-core/contracts/interfaces/IUniswapV2Factory.sol';
-import '@co-swap/lib/contracts/libraries/TransferHelper.sol';
+import '@coswap/core/contracts/interfaces/IUniswapV2Factory.sol';
+import '@coswap/lib/contracts/libraries/TransferHelper.sol';
 
 import './libraries/UniswapV2Library.sol';
 import './interfaces/IUniswapV2Router01.sol';
